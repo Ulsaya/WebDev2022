@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Instagram</title>
+        <style>
+            body{
+                background-color: rgb(250, 250, 250);
+            }
+            #top{
+                width: max-content;
+                height: 50px;
+                position: relative;
+                top: 0;
+            }
+            #bottom{
+                width: max-content;
+                height: 100px;
+                position: relative;
+                bottom: 0;
+            }
+            #leftpart{
+                position: absolute;
+                left: 0;
+                width: 50%;
+            }
+            #rightpart{
+                position: absolute;
+                right: 0;
+                width: 50%;
+            }
+            #phoneimg{
+               position: absolute;
+               right: 0;
+               vertical-align: middle;
+               margin-right: 10px;
+               margin-bottom: 60px;
+
+            }
+            #instagraming{
+                position: absolute;
+                margin: auto;
+            }
+            #imginst{
+                display: block;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            #insert{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 10px;
+                margin-top: 20px;
+                width: 348px;
+                height: 380px;
+                border:ridge;
+                border-color: rgb(94, 94, 94);
+                background-color:#ffffff;
+            }
+            #rightacc{
+                width: 348px;
+                height: auto;
+            }
+            .input{
+                margin-left: 35px;
+                margin-top: 5px;
+            }
+            .inps{
+                background-color:rgb(250, 250, 250);
+                width: 268px;
+                height: 36px;
+                margin:auto;
+                border-radius: 3px;
+                border-color:lavender;
+                border-width: 1px;
+            }
+            input::placeholder{
+                font-size: 14px;
+                color:#797979b7;
+            }
+            #button1{
+                width: 275px;
+                height: 28px;
+                margin: 10px 35px;
+                border-radius: 6px;
+                padding:0px 6px;
+                color: white;
+                font: 16px Helvetica, Arial, sens-serif;
+                background-color:#0088f767;
+                border-width: 0px;
+            }
+            .wl{
+                width: 100%;
+            }
+            #orbet{
+                width: 100%;
+                text-align: center;
+                font: 14px Helvetica, Arial, sens-serif;
+                color: gray;
+            }
+            #faceinp{
+                margin: auto;
+            }
+            #link{
+                margin-left:20%;
+            }
+            #forgot{
+                text-align: center;
+                font: 12px Helvetica, Arial, sens-serif;
+            }
+            #noacc{
+                vertical-align: middle;
+                text-align: center;
+                font: 14px Helvetica, Arial, sens-serif;
+            }
+            #install{
+                vertical-align: middle;
+                text-align: center;
+                font: 14px Helvetica, Arial, sens-serif;
+            }
+            #register{
+                color: blue;
+                vertical-align: middle;
+            }
+            a:hover{
+                text-decoration: none;
+            }
+            #noaccbox{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                margin-left: 10px;
+                margin-top: 20px;
+                width: 348px;
+                height: 40px;
+                border:outset;
+                border-color: rgb(94, 94, 94);
+                background-color:#ffffff;
+            }
+            #apple{
+                margin-left: 10%;
+            }
+            #list{
+                list-style-type: none;
+                margin: 0px;
+                padding: 0;
+                position: fixed;
+                width: 100%;
+                overflow: hidden;
+                bottom: 0px;
+            }
+            li{
+                float:left;
+                color:gray;
+                align-items: center;
+                margin-left: 36px;
+                margin-bottom: 20px;
+                margin-right: 40px;
+            }
+            #bottom{
+                margin-top: 20px;
+                bottom: 0;
+                height: 20%;
+            }
+            a{
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+        </div>
+        <div>
+            <div id="leftpart">
+                <div id="phoneimg">
+                <img  width="422" src="https://sun9-49.userapi.com/impf/F5ARLGFJK6ZDGNJBY_5GyilbtodmGFBP0S76pw/nIYujCv01M8.jpg?size=518x775&quality=96&proxy=1&sign=47f521677726c825345b3163bb68f0da&type=album">
+                </div>
+            </div>
+           
+            <div id="rightpart">
+                <div id="rightacc">
+                    <div id="insert">
+                        <div id="instagramimg">
+                            <img id="imginst" width="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png" alt="Instagram">
+                        </div>
+                        <br>
+                        <br>
+
+                        <div class="input">
+                            <input class="inps" placeholder="Номер телефона, имя пользователя или электронная почта" type="text">
+                        </div>
+                        <div class="input">
+                            <input class="inps" placeholder="Пароль" type="password">
+                        </div>
+                        <div id="but">
+                            <button id="button1">
+                                Войти
+                            </button>
+                        </div>
+                        <div class="or">
+                            <div class="wl">
+                                <p id="orbet">ИЛИ</p>
+                            </div>
+                            <div class="faceinp"> 
+                                <a id="link" href="https://www.facebook.com/"><img width="200" src= "https://i.stack.imgur.com/oL5c2.png" alt="face"></a>
+                            </div>
+                            <div>
+                                <p id="forgot">Забыли пароль?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="noaccbox">
+                        <p id="noacc">У вас еще нет аккаунта? <a id="register" href="">Зарегистрироваться</a></p>
+                    </div>
+                    <p id="install">Установите приложение</p>
+                    <div class="appstore">
+                        <a id="apple" href="https://www.apple.com/app-store/"><img width="150" src="https://naklejki-na-avto.ru/images/product/l/57446c5c7.jpg" alt="appstore" border="0"></a>
+                        <a id="android" href="https://play.google.com/store"><img width="150" src="https://naklejki-na-avto.ru/images/product/l/5742f420b.jpg" alt="play" border="0"></a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div id="bottom">
+            <ul id="list">
+                <li><a href="">Информация</a></li>
+                <li><a href="">Блог</a></li>
+                <li><a href="">Вакансии</a></li>
+                <li><a href="">Помощь</a></li>
+                <li><a href="">API</a></li>
+                <li><a href="">Конфиденциальность</a></li>
+                <li><a href="">Условия</a></li>
+                <li><a href="">Популярные аккаунты</a></li>
+                <li><a href="">Хэштеги</a></li>
+                <li><a href="">Места</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
